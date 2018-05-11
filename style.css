@@ -1,0 +1,378 @@
+html {
+	font-size: 62.5%
+}
+html, body, div, p, h1, h2, h3, h4, h5, h6, img, a,
+ul, li, span, i {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style-type: none;
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	display: block
+}
+/** start navigation**/
+#navigation {
+	width: 1600px;
+	height: 75px;
+	background-color: rgb(120, 120, 120, 0.6);
+	position: fixed;
+}
+#navigation a {
+	font-size: 3.0rem;
+	display: inline-block;
+	color: #fff;
+}
+h1 {
+	display: inline-block;
+	width: 140px;
+	padding-top: 20px;
+}
+
+nav {
+	width: 1260px;
+	/*height: 75px;
+	line-height: 75px;*/
+	margin: auto;
+}
+li {
+	display: inline-block;
+}
+#navigation nav a {
+	font-family: 'Alegreya', serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	color: #fff;
+
+}
+#navigation nav ul #nav{
+	width: 950px;
+	height: 75px;
+	line-height: 75px;
+	margin: auto;
+}
+#navigation nav li {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+#social {
+	width: 250px;
+	display: inline-block;
+	float: right;
+	line-height: 75px;
+}
+#social a {
+/*	padding-left: 30px;*/
+	float: right;
+}
+#social li {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+/*start section hero*/
+#hero {
+	background: url(img/hero_img.png);
+	height: 902px;
+	width: 1600px;
+	
+}
+#hero h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 9.2rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 300px;
+	
+}
+#hero a {
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: rgb(120, 120, 120, 0.6);
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 50px;
+	margin-top: 70px;
+}
+#hero p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 2.4rem;
+	color: #fff;
+	text-align: center;
+}
+/*start section body*/
+/*start atr of cakes*/
+#art-of-cakes {
+	width: 1260px;
+	height: 760px;
+	margin: 0 auto;
+	padding: 110px 0px;
+	
+}
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	color: #a47d5e;
+	text-transform: uppercase;
+	padding-top: 10px;
+	/*background-color: yellow;*/
+}
+/*left content*/
+#left-content {
+	width: 630px;
+	text-align: center;
+	display: inline-block;
+}
+h3 {
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	font-size: 4.4rem;
+	color: #56534c;
+	/*background-color: red;*/
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	color:#56534c;
+}
+#left-content p {
+	padding: 70px 70px 50px 70px;
+	/*background-color: blue;*/
+}
+#left_content p .fontsforweb_fontid_1076 {
+	color: #a47d5e;
+}
+/*right-content*/
+#right-content {
+	float: right;
+	display: inline-block;
+	text-align: center;
+}
+/*start perfect pancakes*/
+#perfect-pancakes {
+	background: url(img/perfect_pancakes.png);
+	height: 760px;
+	width: 1600px;
+}
+#wrapper {
+	width: 1065px;
+	height: 560px;
+	margin: 0 auto;
+	
+	/*background-color: gray;*/
+	position: relative;
+	top: 100px;
+
+}
+#wrapper #img {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+
+}
+#tasty {
+	width: 570px;
+	height: 512px;
+	background: url(img/menu.png);
+	/*background-color: red;*/
+	position: absolute;
+	bottom: 0px;
+	left: 395px;
+}
+#content-box {
+	width: 430px;
+	height: 400px;
+	margin: 90px;
+}
+#content-box p {
+	padding-top: 75px;
+}
+.ready {
+	background: url(img/ready.png);
+	width: 200px;
+	height: 200px;
+	/*background-color: green;*/
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#slider {
+	width: 425px;
+	height: 100px;
+	line-height: 100px;
+	margin-top: 100px;
+
+}
+#slider i {
+	border: 2px solid #dfc691;
+	border-radius: 30px;
+	margin: 0 auto;
+	padding: 6px;
+	width: 15px;
+	height: 15px;
+	font-size: 15px;
+	color: #dfc691;
+	text-align: center;
+
+}
+#slider i:hover {
+	color: #56534c;
+	border: 2px solid #56534c;
+}
+#slider a {
+	width: 31px;
+	float: left;
+	
+}
+#slider img {
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+/*breakfast*/
+#breakfast {
+	background: url(img/breakfast.png);
+	height: 760px;
+	width: 1600px;
+}
+#breakfast h3 {
+	color: #fff;
+	font-size: 5rem;
+}
+#box {
+	width: 1260px;
+	height: 650px;
+	padding-top: 90px;
+	margin: 0 auto;
+}
+#left {
+	text-align: center;
+	float: left;
+	width: 630px;
+}
+h5 {
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	font-size: 2rem;
+	margin-top: 55px;
+	color: #fff;
+}
+h6 {
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	font-size: 2.5rem;
+	color: #a47d5e;
+}
+#breakfast p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #c2beba;
+}
+#right {
+	height: 601px;
+	width: 443px;
+	background: url(img/breakfast_menu1.png);
+	float: right;
+}
+#menu {
+	height: 340px;
+	width: 340px;
+	text-align: center;
+	margin: auto;
+	margin-top: 210px;
+	
+}
+#menu h3 {
+	color: #56534c;
+	font-size: 4.4rem;
+}
+#menu p {
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+#menu a {
+	color: #a47d5e;
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+	border: 1px solid #9e9c93;
+	
+	display: block;
+	width: 190px;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+   
+	line-height: 50px;
+
+}
+/*sandwich*/
+#sandwich {
+	width: 1600px;
+	height:  960px;
+	background-color: #f3f1e9;
+	padding-top: 100px;
+}
+#sandwich h3 {
+	text-align: center;
+}
+#sandwich h4 {
+	text-align: center;
+}
+#sandwich h5 {
+	color: #a47d5e;
+	margin-bottom: 30px;
+	margin-top: 25px;
+}
+#sandwich p {
+	margin-bottom: 60px;
+}
+#products {
+	height: 750px;
+	width: 290px;
+	text-align: center;
+	float: left;
+	margin-left: 170px;
+}
+#container {
+	height: 610px;
+	width: 870px;
+	position: relative;
+	float: right;
+	margin-right: 170px;
+	margin-top: 80px;
+}
+#container a {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	color: #a47d5e;
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+	border: 1px solid #9e9c93;
+	display: block;
+	width: 170px;
+	height: 60px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 50px;
+	z-index: 1;
+	background-color: #fff;
+}
+#container img {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
